@@ -12,7 +12,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className='flex items-center flex-wrap bg-gray-950 p-3 '>
+      <nav className='flex items-center flex-wrap bg-gray-900 p-3 '>
         <Link href='/'>
           <div className='inline-flex items-center p-2 mr-4 '>
             <span className='text-xl text-white font-bold tracking-wide'>
@@ -53,17 +53,17 @@ export const Navbar = () => {
             </Link>
             <Link href='/'>
               <div className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-gray-800 hover:text-white'>
-                Services
+                Projects
+              </div>
+            </Link>
+            <Link href='https://github.com/timplay33'>
+              <div className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-gray-800 hover:text-white'>
+                Github
               </div>
             </Link>
             <Link href='/'>
               <div className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-gray-800 hover:text-white'>
-                About us
-              </div>
-            </Link>
-            <Link href='/'>
-              <div className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-gray-800 hover:text-white'>
-                Contact us
+                About
               </div>
             </Link>
           </div>
