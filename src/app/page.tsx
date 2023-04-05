@@ -9,7 +9,7 @@ export default function Page() {
       <Navbar /> 
 
       <div className='h-screen p-3 main'>
-        <h1 className="text-3xl font-bold text-white">Welcome</h1>
+        <h1 className='text-3xl font-bold text-white'>Welcome</h1>
         <h2 className='text-white'>Hi I'm Tim!</h2>
       </div>
 
