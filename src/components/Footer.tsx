@@ -5,7 +5,7 @@ import Link from "next/link";
 export const Footer = () => {
   return (
     <>
-      <div className="w-screen justify-center flex gap-4 m-5">
+      <div className="w-screen justify-center flex gap-4 m-5 pr-11">
         <a
           target="_blank"
           rel="noopener"
@@ -46,6 +46,7 @@ export const Footer = () => {
           </svg>
         </a>
       </div>
+      <p className="flex justify-center m-5">Copyright © 2023 Tim Heidler</p>
     </>
   );
 };
