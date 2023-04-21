@@ -10,6 +10,12 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    colors: {
+      'headline': "#ffffff",
+      'text': "#808080",
+      'background': "#161616",
+      'background-accent': "#101010",
+    }
   },
   plugins: [],
 }
