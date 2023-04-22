@@ -6,9 +6,7 @@ import "./page.css";
 export default function Page() {
   return (
     <main className="bg-background text-text flex flex-col">
-      <Navbar />
       <Home />
-      <Footer />
     </main>
   );
 }

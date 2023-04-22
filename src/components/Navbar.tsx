@@ -8,7 +8,7 @@ export const Navbar = () => {
       <nav className="flex items-center flex-wrap text-headline font-bold bg-background-accent p-3 shadow-2xl lg:fixed w-screen">
         <Link href="/">
           <div className="inline-flex items-center p-2 mr-4 ">
-            <span className="text-xl bg-background tracking-wide">
+            <span className="text-xl hover:bg-background tracking-wide">
               Tim Heidler
             </span>
           </div>
@@ -20,7 +20,7 @@ export const Navbar = () => {
                 Home
               </div>
             </Link>
-            <Link href="/">
+            <Link href="/Projects">
               <div className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded  items-center justify-center hover:bg-background ">
                 Projects
               </div>

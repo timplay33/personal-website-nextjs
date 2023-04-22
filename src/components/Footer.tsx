@@ -5,7 +5,7 @@ import Link from "next/link";
 export const Footer = () => {
   return (
     <>
-      <div className="w-screen justify-center flex gap-4 m-5 pr-11">
+      <div className="justify-center flex gap-4 m-5">
         <a
           target="_blank"
           rel="noopener"
