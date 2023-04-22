@@ -26,7 +26,7 @@ export default function ProjectWindow(props: any) {
   return (
     <div>
       {projects.slice(0, props.items).map((project) => (
-        <div className="m-16">
+        <div key={project.title} className="m-16">
           <a href={project.url}>
             <h2 className="text-3xl font-bold text-headline hover:underline">
               {project.title}
