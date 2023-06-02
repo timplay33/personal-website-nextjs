@@ -30,7 +30,7 @@ export const Navbar = () => {
                 Github
               </div>
             </Link>
-            <Link href="/">
+            <Link href="/About">
               <div className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center hover:bg-background ">
                 About
               </div>
